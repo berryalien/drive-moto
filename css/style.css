@@ -327,3 +327,21 @@ body {
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
 }
+
+.search {}
+
+.search__inner {}
+
+.search__tabs {}
+
+.search__tabs-item {}
+
+.search__content {}
+
+.search__content-item {}
+
+.search__content-form {}
+
+.search__content-input {}
+
+.search__content-btn {}
