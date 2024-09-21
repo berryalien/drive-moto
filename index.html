@@ -176,24 +176,24 @@
     <div class="container">
       <div class="search__inner">
         <div class="search__tabs">
-          <a class="search__tabs-item search__tabs-item--active" href="#tab-1">Поиск по номеру </a>
-          <a class="search__tabs-item" href="#tab-2">Поиск по марке </a>
-          <a class="search__tabs-item" href="#tab-3">Поиск по названию товара </a>
+          <a class="tab search__tabs-item tab--active" href="#tab-1">Поиск по номеру </a>
+          <a class="tab search__tabs-item" href="#tab-2">Поиск по марке </a>
+          <a class="tab search__tabs-item" href="#tab-3">Поиск по названию товара </a>
         </div>
         <div class="search__content">
-          <div id="tab-1" class="search__content-item search__content-item--active">
+          <div id="tab-1" class="tabs-content search__content-item tabs-content--active">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите номер">
               <button class="search__content-btn">искать</button>
             </form>
           </div>
-          <div id="tab-2" class="search__content-item">
+          <div id="tab-2" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите марку">
               <button class="search__content-btn">искать</button>
             </form>
           </div>
-          <div id="tab-3" class="search__content-item">
+          <div id="tab-3" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите название товара">
               <button class="search__content-btn">искать</button>
@@ -276,6 +276,118 @@
     </div>
   </section>
 
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <div class="tabs-wrapper">
+          <div class="tabs products__tabs">
+            <a class="tab  products__tab tab--active" href="#">
+              запчасти
+            </a>
+            <a class="tab  products__tab" href="#">
+              моторы
+            </a>
+            <a class="tab  products__tab" href="#">
+              шины
+            </a>
+            <a class="tab  products__tab" href="#">
+              электроника
+            </a>
+            <a class="tab  products__tab" href="#">
+              инструменты
+            </a>
+            <a class="tab  products__tab" href="#">
+              аксессуары
+            </a>
+          </div>
+          <div class="tabs-container products__container">
+            <div class="tabs-content tabs-content--active products__content">
+              <div class="products-slider">
+                <div class="products-slider__item">
+                  <a class="products-item" href="#">
+                    <button class="products-item__favorite">
+                    </button>
+                    <img class="products-item__img" src="images/products/product-1.png" alt="">
+                    <h4 class="products-item__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="products-item__price price">
+                      9 800 ₽
+                    </p>
+                    <button class="products-item__basket">
+                      <img src="images/content/basket-white.svg" alt="">
+                    </button>
+                  </a>
+                  <a class="products-item" href="#">
+                    <button class="products-item__favorite">
+                    </button>
+                    <img class="products-item__img" src="images/products/product-2.png" alt="">
+                    <h4 class="products-item__title">
+                      Спасательный жилет BRP Men's Airflow PFD
+                    </h4>
+                    <p class="products-item__price price">
+                      6 900 ₽
+                    </p>
+                    <button class="products-item__basket">
+                      <img src="images/content/basket-white.svg" alt="">
+                    </button>
+                  </a>
+                  <a class="products-item" href="#">
+                    <button class="products-item__favorite">
+                    </button>
+                    <img class="products-item__img" src="images/products/product-3.png" alt="">
+                    <h4 class="products-item__title">
+                      BRP Audio-Premium System
+                    </h4>
+                    <p class="products-item__price price">
+                      68 000 ₽
+                    </p>
+                    <button class="products-item__basket">
+                      <img src="images/content/basket-white.svg" alt="">
+                    </button>
+                  </a>
+                  <a class="products-item" href="#">
+                    <button class="products-item__favorite">
+                    </button>
+                    <img class="products-item__img" src="images/products/product-4.png" alt="">
+                    <h4 class="products-item__title">
+                      Спасательное
+                      снаряжение
+                    </h4>
+                    <p class="products-item__price price">
+
+                    </p>
+                    <button class="products-item__basket">
+                      <img src="images/content/basket-white.svg" alt="">
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-content products__content">
+
+            </div>
+            <div class="tabs-content products__content">
+
+            </div>
+            <div class="tabs-content products__content">
+
+            </div>
+            <div class="tabs-content products__content">
+
+            </div>
+            <div class="tabs-content products__content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <div class="banner">
     <div class="container">
       <a class="banner__link" href="#">
@@ -293,7 +405,7 @@
               Подпишитесь на нашу рассылку
               и узнавайте о акция быстрее
             </h6>
-            <form  class="footer-form">
+            <form class="footer-form">
               <input class="footer-form__input" type="text" placeholder="Введите ваш e-mail:">
               <button class="footer-form__btn" type="submit">
                 Отправить
