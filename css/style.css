@@ -47,6 +47,33 @@ body {
   margin-bottom: 80px;
 }
 
+.breadcrumbs__box {
+  padding: 24px 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+  content: ">";
+  margin-left: 5px;
+  height: 10px;
+  width: 6px;
+  color: #C4C4C4;
+}
+
+.breadcrumbs__link {
+  color: #C4C4C4;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+
+
 .header__top-inner {
   display: flex;
   justify-content: space-between;
