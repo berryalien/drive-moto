@@ -463,6 +463,11 @@ body {
   padding-left: 2px;
 }
 
+.products__container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .product-item__wrapper {
   position: relative;
   width: 271px;
@@ -563,6 +568,23 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.84px;
+}
+
+.product-item__wrapper.product-item__not-available .product-item__price {
+  display: none;
+}
+
+.product-item__notify-text {
+  display: none;
+}
+
+.product-item__wrapper.product-item__not-available .product-item__notify-text {
+  display: block;
+}
+
+.product-item__wrapper.product-item__not-available 
+.product-item__basket {
+  display: none;
 }
 
 .footer {
