@@ -17,6 +17,8 @@ $('.tabs-content').removeClass('tabs-content--active');
 $(this).addClass('tab--active');
 $($(this).attr('href')).addClass('tabs-content--active');
 
-})
+});
+
+$('.filter-style').styler();
 
 });
